@@ -90,7 +90,7 @@ section.landing div.introText{
 section.landing h1{
 	font-family: 'hero_lightlight';
 	font-size: 76px;
-	color: #FFF;
+	color: #000;
 	text-align: left;
 	width: 500px;
 	letter-spacing: -2px;
@@ -109,13 +109,55 @@ section.landing h1.hugeNumber{
 
 section.landing h2{
 	font-family: 'hero_lightlight';
-	font-size: 31px;
+	font-size: 40px;
 	text-align: left;
-	color: #FFF;
-	margin: 22px 0 0 0;
+	color: #000;
+	margin: 150px 0 0 0;
+//	margin: 22px 0 0 0;
 	width: 370px;
 	line-height: 35px;
 }
+
+section.second div.introText{
+	position: absolute;
+	top: 50%;
+	height: 540px;
+	margin-top: -270px;
+	left: 100px;
+}
+
+section.second h1{
+	font-family: 'hero_lightlight';
+	font-size: 76px;
+	color: #000;
+	text-align: left;
+	width: 500px;
+	letter-spacing: -2px;
+}
+
+section.second h1 strong{
+	font-family: 'heroregular';
+	color: #FF0000;	
+	font-weight: normal;
+}
+
+section.second h1.hugeNumber{
+	font-size: 197px;
+	margin: 0 0 -10px -5px;
+}
+
+section.second h2{
+	font-family: 'hero_lightlight';
+	font-size: 40px;
+	text-align: left;
+	color: #000;
+	margin: 150px 0 0 0;
+//	margin: 22px 0 0 0;
+	width: 370px;
+	line-height: 35px;
+}
+
+
 
 section.tour div.content{
 	opacity: 0;
@@ -278,6 +320,17 @@ div#cursorsThumbnail{
 
 section.landing{
 	background: url(../img/landingBkg.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/landingBkg.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/landingBkg.jpg', sizingMethod='scale')";
+	pointer-events:all;
+}
+
+section.second{
+	background: url(../img/incompatible.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
